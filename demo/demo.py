@@ -46,7 +46,8 @@ def get_parser():
     parser = argparse.ArgumentParser(description="maskformer2 demo for builtin configs")
     parser.add_argument(
         "--config-file",
-        default="configs/coco/panoptic-segmentation/maskformer2_R50_bs16_50ep.yaml",
+        # default="configs/coco/panoptic-segmentation/maskformer2_R50_bs16_50ep.yaml",
+        default="configs/mapillary-vistas/semantic-segmentation/swin/maskformer2_swin_large_IN21k_384_bs16_300k.yaml",
         metavar="FILE",
         help="path to config file",
     )
